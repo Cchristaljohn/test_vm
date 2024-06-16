@@ -2,7 +2,7 @@ import unittest
 import apache_beam as beam
 from apache_beam.testing.test_pipeline import TestPipeline
 from apache_beam.testing.util import assert_that, equal_to
-from test import prepData, ProcessTransformations
+from process_transaction import prepData, ProcessTransformations
 
 class Test(unittest.TestCase):
     def test_process(self):
