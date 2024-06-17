@@ -4,8 +4,9 @@ Requirements:
 1) How this batch dataflow job can be deployed as IAC? Assuming both input and output data are in gcs how we can run this job without internet connectivity / external access.
 2) Scheduled on a daily basis on cloud composer.
 
-Key compenents needed:
+Key components needed:
 - Terraform
+- Google cloud IAM roles
 - Google Cloud VPC Network
 - Google Cloud Storage
 - Google Data Flow
